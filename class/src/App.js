@@ -1,9 +1,12 @@
 import "./App.css";
+import AppRoutes from "./AppRoutes";
+import NavBar from "./components/Navbar/Navbar";
 
 function App() {
     return (
         <div className="App">
-            <h1>App</h1>
+            <NavBar />
+            <AppRoutes />
         </div>
     );
 }
